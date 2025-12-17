@@ -131,5 +131,21 @@ let side1 = 12;
 let area = side * side1; 
 console.log("Area of rectangle:", area);
 
+// radius/circle area program 
+let r = 5; 
+let area1 = Math.PI * r * r;
+console.log("Area of circle =", area1);
+
+let area2 = Math.PI * Math.pow (r, 2); 
+console.log("Area of the circle: ", area2);
+
+
+let phone = 119.95; 
+let rate = 5; 
+let sumOfPhone = phone * rate; 
+let result = sumOfPhone * 30; 
+console.log(result);
+
+
 
 
